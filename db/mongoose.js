@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb://pixcosmos:Nu49V6lN2Wd7jPaFJdph14AyrRqNZ76VdwXlDIrIl7iapKNSHnTuwMAatvGqves0h4LwW3W32WuKvojYojWK4Q==@pixcosmos.mongo.cosmos.azure.com:10255/?ssl=true&appName=@pixcosmos@', {
+mongoose.connect('mongodb://mucosmos:iMe6E00zqEAxfby7G7Sy3VgKFef7qIcFuMNl6ZgAIZq2Ofbp9mKtJS5LbFJGTLUQob1HPNojFGtpETkH0SvkkA==@mucosmos.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@mucosmos@', {
     useNewUrlParser: true,
     socketTimeoutMS: 5000,
     useUnifiedTopology: true,
